@@ -1,0 +1,71 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.moved-aside
+*.xcuserstate
+*.xcuserdatad
+*.lock
+*.swp
+*.xcscheme
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+.build/
+Packages/
+.swiftpm/xcode/
+
+# Cocoapods
+#
+Pods/
+Podfile.lock
+Podfile.swp
+Podfile.swo
+
+# Carthage
+#
+Carthage/Build/
+Carthage/Checkouts/
+
+# Accio dependency management
+/.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Coverage
+#
+codecov.yml
+*.xccovreport
+*.xccovarchive
+
+# IDE Specific
+#
+.idea/
+
+# Asset Packs
+*.appiconset/Icon-?.png
+*.appiconset/Icon-??.png
+
+# Other
+#
+.DS_Store
+*.orig
+*.pyc
+*.gz
+*.log
+*.xcodeproj/*
+*.xccheckout
+
+# SwiftPM
+Packages/
+.swiftpm/
+.build/
+
